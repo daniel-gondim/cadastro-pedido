@@ -1,0 +1,32 @@
+/* cadastro-pedido.component.css */
+.cadastro-pedido {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cadastro-pedido input[type="text"],
+.cadastro-pedido input[type="date"],
+.cadastro-pedido input[type="number"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.cadastro-pedido button {
+  padding: 10px;
+  background-color: rgb(72, 230, 57);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cadastro-pedido button:hover {
+  background-color: purple;
+}
